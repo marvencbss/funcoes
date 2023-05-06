@@ -89,15 +89,69 @@ console.log(resposta)
 
 
 //ex 1 - escrita de código
-
+a-
 function infos() {
-const nome = prompt("Digite seu nome");
-const idade = Number (prompt("Digite sua idade"));
-const cidade = prompt("Digite sua cidade");
-const ocupacao = prompt("Digite sua ocupação");
+const nome = prompt("Digite seu nome")
+const idade = Number (prompt("Digite sua idade"))
+const cidade = prompt("Digite sua cidade")
+const ocupacao = prompt("Digite sua ocupação")
 console.log("Eu sou" ,nome, "tenho" ,idade, "anos, moro em" ,cidade, "e sou" ,ocupacao);
 }
 console.log(infos());
 
+b-
+const nome = prompt("Digite seu nome")
+const idade = Number (prompt("Digite sua idade"))
+const cidade = prompt("Digite sua cidade")
+const profissao = prompt("Digite sua profissão")
+
+function listarPessoa(nomePessoa,idadePessoa,cidadePessoa,profissaoPessoa){
+console.log(`Eu sou ${nomePessoa}, tenho ${idadePessoa} anos, moro  em ${cidadePessoa} e sou ${profissaoPessoa}.`);
+}
+listarPesoa(nome,idadae,cidade,profissao)
 
 //ex 2 - escrita de código
+function somar(n1,n2){
+return n1 + n2
+}
+ function maiorQue(n1,n2){
+ return n1 >= n2
+ }
+console.log(somar(10, 20));
+console.log(maiorQue(10, 20));
+console.log(ifPar(10, 20));	
+	
+
+
+//ex 3 - escrita de código
+
+function somar(n1, n2) {
+return n1+ n2;
+}
+
+
+function subtrair(n1, n2) {
+return n1 - n2;
+}
+
+function multiplicar(n1, n2) {
+return n1 * n2;
+}
+
+function dividir(n1, n2) {
+return n1 / n2;
+}
+
+console.log(somar(n1,n2))
+console.log(subtrair(n1,n2))
+console.log(multiplicar(n1,n2))
+console.log(dividir(n1,n2))
+
+
+//notas - para importar:
+import { outraFuncao } from "arquivo.js";
+
+let textodoUsuario = prompt("Insira um texto");
+
+const resposta = outraFuncao(textoDoUsuario)
+console.log(resposta)
